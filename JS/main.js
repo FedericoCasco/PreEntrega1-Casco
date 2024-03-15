@@ -1,7 +1,7 @@
 
 //----------------------------------Nombre----------------------------//
 
-const  nombreIngresado = prompt("Ingrese su nombre a continuacion:");
+let nombreIngresado = prompt("Ingrese su nombre a continuacion:");
 
 while (nombreIngresado === null || nombreIngresado === "" ) {
     if (nombreIngresado === null) {
@@ -17,7 +17,7 @@ alert("Excelente " + nombreIngresado + "\nProsigamos con verificación");
 
 //--------------------------------Edad-----------------------------//
 
-const edad = prompt("Ingrese su edad");
+let edad = prompt("Ingrese su edad");
 
  while (isNaN(edad) || edad === "") {
         alert("Por favor, ingrese su edad en números.");
@@ -33,7 +33,8 @@ const edad = prompt("Ingrese su edad");
     } 
     else {
         alert("Eres menor para proseguir, vuelve dentro de unos años.");
-        nombreIngresado = prompt("");
+        prompt = ("")
+      
 
     }
        
@@ -70,7 +71,7 @@ while (true) {
 //--------------------------------Cree variable MENSAJE para no repetir el mensaje -----------------------------//
 
 
-const mensaje = `Elegiste una de estas armas ${productos[lista - 1]}`;
+let mensaje = `Elegiste una de estas armas ${productos[lista - 1]}`;
 
 switch (lista) {
     case 1:
