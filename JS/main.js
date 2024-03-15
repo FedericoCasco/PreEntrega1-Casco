@@ -28,14 +28,17 @@ const edad = prompt("Ingrese su edad");
         edad = prompt("Ingrese su edad.\nIntente una vez mas o actualize la pagina.");
         } 
 
-    else if (edad >= 18) {
+    if (edad >= 18) {
         alert("Excelente tiene la edad necesaria para seguir.");
     } 
     else {
         alert("Eres menor para proseguir, vuelve dentro de unos años.");
+        nombreIngresado = prompt("");
+
     }
-
-
+       
+    
+   
   
 
 //--------------------------------LISTA-----------------------------//
