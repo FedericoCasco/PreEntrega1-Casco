@@ -34,18 +34,10 @@ let edad = prompt("Ingrese su edad");
     else {
         alert("Eres menor para proseguir, vuelve dentro de unos años.");
         prompt = ("")
-      
-
     }
+
+    //--------------------------------LISTA-----------------------------//
        
-    
-   
-  
-
-//--------------------------------LISTA-----------------------------//
-
-    
-        
 const productos = ["Glock", "M4", "Knife", "Bomb", "SALIR"];
 
 let lista;
@@ -64,7 +56,6 @@ while (true) {
         alert("Por favor elige SOLO entre las opciones 1 y 5 de la lista");
         continue;
     }
-
     break;
 }
 
